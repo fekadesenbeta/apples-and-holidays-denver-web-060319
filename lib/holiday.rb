@@ -55,22 +55,6 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].values.flatten
   
  end
- 
- holiday_supplies = {
-  :winter => {
-    :christmas => ["Lights", "Wreath"],
-    :new_years => ["Party Hats"]
-  },
-  :summer => {
-    :fourth_of_july => ["Fireworks", "BBQ"]
-  },
-  :fall => {
-    :thanksgiving => ["Turkey"]
-  },
-  :spring => {
-    :memorial_day => ["BBQ"]
-  }
-}
 
 def all_supplies_in_holidays(holiday_hash)
   # iterate through holiday_hash and print items such that your readout resembles:
