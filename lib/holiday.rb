@@ -92,7 +92,8 @@ def all_holidays_with_bbq(holiday_hash)
      if event == "BBQ"
      display = array << season 
     end
-    season
+  end
+    display
 end
 
 
