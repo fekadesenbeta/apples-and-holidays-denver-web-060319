@@ -91,8 +91,9 @@ def all_holidays_with_bbq(holiday_hash)
      holiday.each do |event|
      if event == "BBQ"
        puts season
+    end
     
-    
+  end
 end
 
 
